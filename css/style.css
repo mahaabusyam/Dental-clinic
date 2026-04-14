@@ -406,7 +406,7 @@ color: #333;
 
 /* Learn More */
 .learn-more { padding: 60px 0; border-top: 1px solid #eee; margin-top: 50px; }
-.section-title { color: #1a8a34; text-align: right; margin-bottom: 30px; }
+.section-title { color: #1a8a34; text-align: center; margin-bottom: 30px; }
 
 .articles-grid {
     display: flex;
