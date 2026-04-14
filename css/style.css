@@ -595,4 +595,13 @@ width: 60%;
     .nav-links.active {
         transform: translateX(0);
     }
+    .stats-grid{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+                   }
+
+    .section-title , .article-main h4{
+        font-size: 15px;
+    }
 }
