@@ -877,7 +877,7 @@ width: 60%;
 .learn-card:hover h3 , .learn-card:hover p{
     color: #fff;
 }
-.price-card.show , .learn-card.show {
+.price-card .show , .learn-card .show {
     opacity: 1;
     transform: translateY(0);
 }
