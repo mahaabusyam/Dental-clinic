@@ -9,11 +9,11 @@ document.querySelectorAll(".nav-links a").forEach(link => {
         nav.classList.remove("active");
     });
 });
-const elements = document.querySelectorAll(
+let elements = document.querySelectorAll(
     '.hidden, .fade-left, .fade-right, .zoom-in, .solution-card, .price-card, .learn-card'
 );
 
-const observer = new IntersectionObserver((entries, obs) => {
+let observer = new IntersectionObserver((entries, obs) => {
     entries.forEach((entry) => {
 
         if (entry.isIntersecting) {
