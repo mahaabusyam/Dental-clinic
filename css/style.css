@@ -549,6 +549,242 @@ width: 60%;
     font-size: 28px;
     cursor: pointer;
 }
+/*why page*/
+.why-hero {
+    background: #004d40;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    animation: fadeDown 1s ease;
+}
+
+.why-hero h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.why-hero p {
+    max-width: 600px;
+    margin: auto;
+    font-size: 18px;
+    opacity: 0.9;
+}
+.problem {
+    padding: 80px 8%;
+    background: #f9f9f9;
+    text-align: center;
+    animation: fadeDown 2s ease;
+}
+
+.problem h2 {
+    color: #004d40;
+    margin-bottom: 15px;
+}
+
+.problem p {
+    max-width: 700px;
+    margin: 0 auto 30px;
+}
+.features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 60px 8%;
+    flex-wrap: wrap;
+}
+
+.feature {
+    flex: 1;
+    min-width: 260px;
+    max-width: 320px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid #eee;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    transition: all 0.4s ease;
+}
+
+.feature:hover , .step:hover, .testimonial:hover{
+    transform: translateY(-15px) ;
+    box-shadow: 20px 20px 40px rgba(0,0,0,0.1);
+}
+
+.feature h3 {
+    color: #004d40;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 14px;
+}
+
+.icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+    display: block;
+}
+.icon i{
+    color: #004d40;
+}
+
+.workflow {
+    padding: 80px 8%;
+    text-align: center;
+}
+
+.workflow h2 {
+    color: #004d40;
+    margin-bottom: 40px;
+}
+
+.steps {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.step {
+    flex: 1;
+    min-width: 220px;
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #eee;
+    transition: 0.3s;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 80px 20px;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.stat-box {
+    margin: 20px;
+}
+
+.stat-box h2 {
+    font-size: 40px;
+    color: #2ecc71;
+}
+
+.stat-box p {
+    font-size: 14px;
+}
+
+.why-different {
+    padding: 80px 8%;
+    text-align: center;
+}
+
+.why-different h2 {
+    color: #004d40;
+    margin-bottom: 20px;
+}
+
+.why-different p {
+    max-width: 700px;
+    margin: auto;
+}
+
+.video-section {
+    padding: 80px 20px;
+    text-align: center;
+    background: #f9f9f9;
+}
+
+.video-section h2 {
+    color: #004d40;
+    margin-bottom: 30px;
+}
+
+.video-section video {
+    width: 80%;
+    max-width: 700px;
+    border-radius: 15px;
+}
+
+.testimonials {
+    display: flex;
+    gap: 20px;
+    padding: 80px 8%;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.testimonial {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 200px;
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    border-left: 5px solid #2ecc71;
+    transition: 0.3s;
+}
+.testimonial img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.testimonial p {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.cta {
+    background: #004d40;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.cta h2 {
+    margin-bottom: 15px;
+}
+
+.cta p {
+    margin-bottom: 25px;
+}
+
+.cta button {
+    background: #2ecc71;
+    border: none;
+    padding: 15px 35px;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cta button:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+}
+
+/* Animations */
+.hidden {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.8s ease;
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
+    }
+    
 /* Responsive */
 @media (max-width: 768px) {
     .hero { flex-direction: column-reverse; }
@@ -603,5 +839,24 @@ width: 60%;
 
     .section-title , .article-main h4{
         font-size: 15px;
+    }
+    .why-hero h1 {
+        font-size: 28px;
+    }
+
+    .steps {
+        flex-direction: column;
+    }
+
+    .stats {
+        flex-direction: column;
+    }
+
+    .testimonials {
+        flex-direction: column;
+    }
+
+    .video-section video {
+        width: 100%;
     }
 }
