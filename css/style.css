@@ -1161,7 +1161,10 @@ width: 60%;
 /* Responsive */
 @media (max-width: 768px) {
     .hero { flex-direction: column-reverse; }
-    .solution-card { width: 90%; }
+    .solution-card { 
+        width: 90%;
+        translate: 15px;
+                   }
     .features-grid{
         flex-wrap: wrap;
     }
