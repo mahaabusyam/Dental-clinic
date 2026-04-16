@@ -1163,7 +1163,7 @@ width: 60%;
     .hero { flex-direction: column-reverse; }
     .solution-card { 
         width: 90%;
-        translate: 15px;
+        translate: -15px;
                    }
     .features-grid{
         flex-wrap: wrap;
