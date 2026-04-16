@@ -10,7 +10,7 @@ document.querySelectorAll(".nav-links a").forEach(link => {
     });
 });
 let elements = document.querySelectorAll(
-    '.hidden, .fade-left, .fade-right, .zoom-in, .solution-card, .price-card, .learn-card'
+    '.hidden, .fade-left, .fade-right, .zoom-in, .solution2-card, .price-card, .learn-card'
 );
 
 let observer = new IntersectionObserver((entries, obs) => {
@@ -19,7 +19,7 @@ let observer = new IntersectionObserver((entries, obs) => {
         if (entry.isIntersecting) {
             entry.target.classList.add('show');
             if (
-                entry.target.classList.contains('solution-card') ||
+                entry.target.classList.contains('solution2-card') ||
                 entry.target.classList.contains('price-card') ||
                 entry.target.classList.contains('learn-card')
             ) {
