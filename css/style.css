@@ -1107,6 +1107,7 @@ width: 60%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width:60%;
 }
 
 .solution2-card:hover {
