@@ -128,8 +128,9 @@ nav {
 }
 
 .features-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     gap: 30px;
     margin-top: 40px;
 }
@@ -165,6 +166,7 @@ transform: translateY(-10px);
     display: flex;
     gap: 20px;
     justify-content: center;
+    
     flex-wrap: wrap;
 }
 
