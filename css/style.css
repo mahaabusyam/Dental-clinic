@@ -1162,6 +1162,9 @@ width: 60%;
 @media (max-width: 768px) {
     .hero { flex-direction: column-reverse; }
     .solution-card { width: 90%; }
+    .features-grid{
+        flex-wrap: wrap;
+    }
      .products-grid { grid-template-columns: repeat(2, 1fr); }
     .workflow-content { flex-direction: column; }
     .results-grid { grid-template-columns: 1fr; }
