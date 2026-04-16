@@ -1229,4 +1229,7 @@ width: 60%;
     .video-section video {
         width: 100%;
     }
+     .solution-card {
+        translate: 15px 0px;
+     }
 }
