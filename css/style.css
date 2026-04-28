@@ -166,8 +166,7 @@ transform: translateY(-10px);
     display: flex;
     gap: 20px;
     justify-content: center;
-    
-    flex-wrap: wrap;
+    align-items: center;
 }
 
 .solution-card {
@@ -1163,7 +1162,7 @@ width: 60%;
     .hero { flex-direction: column-reverse; }
     .solution-card { 
         width: 90%;
-        translate: -15px;
+        translate: 0px;
                    }
     .features-grid{
         flex-wrap: wrap;
